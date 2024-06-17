@@ -9,15 +9,7 @@
 #             funções e assim, não ficar perdido no resto do curso! Verifique
 #             duas vezes se é necessário usar return ou print, e sempre inclua
 #             DOC-STRINGS! 
-
-
-
-def barra(tamanho, caractere="*", exer=0):
-    """Imprime uma barra de caracteres e o número do exercicio.
-    (int, str, int) -> None
-    """
-    print(caractere * tamanho)
-    if exer != 0: print(" "*tamanho,f">> EXERCÍCIO {exer} <<\n")
+from some_functions import barra
 
 
 # ==============================================================================
